@@ -16,7 +16,7 @@ Let σ : R → R be infinitely differentiable and not a polynomial. For f ∈ W<
 </p>
 
 Here, W<sub>m</sub><sup>n</sup> is the set of all functions of n variables with continuous partial derivatives of orders up to m < ∞. The exponential dependence on the dimension n of the number ε <sup>-m/n</sup> is known as the curse of dimensionality. Note that the degree of approximation is defined by dist(f, V<sub>N</sub>)=inf<sub>P ∈ V<sub>N</sub> </sub> ||f−P||.
-For example, if dist(f, V<sub>N</sub>) = O(N−γ) for some γ > 0,the nanetwork with complexity N = O(ε <sup>1/γ</sup> ) is sufficient to guarantee an approximation with accuracy at least ε.
+For example, if dist(f, V<sub>N</sub>) = O(N−γ) for some γ > 0,the network with complexity N = O(ε <sup>1/γ</sup> ) is sufficient to guarantee an approximation with accuracy at least ε.
 
 ####  _Blessing of compositionality_
 Following the argument from Poggio, deep networks avoid the curse of dimensionality, since it only requires network complexity of O((n−1)ε−<sup>2/m</sup> )to provide approximation with accuracy at least ε. Note that such exponential benefit is due to compositionality; functions composed of hierarchically local functions. That is, deep networks avoids the curse of dimensionality because of the blessing of compositionality via small effective dimension.
